@@ -1,0 +1,7 @@
+name = "geonode-api-test"
+type = "javascript"
+
+account_id = "changeme"
+workers_dev = true
+route = "https://geonode-api-test.sisyphus.ca/*"
+compatibility_date = "2023-02-12"
