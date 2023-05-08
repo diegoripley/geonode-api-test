@@ -66,8 +66,6 @@ async function handleRequest(event) {
 <meta name="dcterms.language" content="eng">
 <meta name="dcterms.subject" content="">
 <meta name="dcterms.issued" content="">
-<meta name="dcterms.modified" content="2022-08-02">
-
 <link rel="apple-touch-icon" sizes="57x57 72x72 114x114 144x144 150x150" class="wb-favicon" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/favicon-mobile.png"><link href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/favicon.ico" rel="icon" type="image/x-icon" class="wb-init wb-favicon-inited">
 <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/css/theme.min.css">
 <noscript><link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/css/noscript.min.css" /></noscript>
@@ -77,11 +75,9 @@ async function handleRequest(event) {
 		<li class="wb-slc"><a class="wb-sl" href="https://wet-boew.github.io/GCWeb/templates/search/results-en.html#wb-cont">Skip to main content</a></li>
 		<li class="wb-slc visible-sm visible-md visible-lg"><a class="wb-sl" href="https://wet-boew.github.io/GCWeb/templates/search/results-en.html#wb-info">Skip to About this site</a></li><li class="wb-slc"><a class="wb-sl" href="https://wet-boew.github.io/GCWeb/templates/search/results-en.html?wbdisable=true" rel="alternate">Switch to basic HTML version</a></li></ul>
 </nav>
-
 <header>
 	<div id="wb-bnr" class="container">
 		<div class="row">
-			
 				<section id="wb-lng" class="col-xs-3 col-sm-12 pull-right text-right">
 	<h2 class="wb-inv">Language selection</h2>
 	<ul class="list-inline mrgn-bttm-0">
@@ -93,8 +89,6 @@ async function handleRequest(event) {
 		</li>
 	</ul>
 </section>
-
-			
 			<div class="brand col-xs-9 col-sm-5 col-md-4" property="publisher" typeof="GovernmentOrganization">
 	<a href="https://wet-boew.github.io/GCWeb/" property="url">
 		<img src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/assets/sig-blk-en.svg" alt="Government of Canada" property="logo"><span class="wb-inv"> / <span lang="fr">Gouvernement du Canada</span></span>
@@ -113,8 +107,6 @@ async function handleRequest(event) {
 	<h2 class="wb-inv">Search results</h2>
     ${results_text}
 </section>
-
-
 <section class="pagedetails">
 	<h2 class="wb-inv">Page details</h2><div class="row"><div class="col-sm-8 col-md-9 col-lg-9">
 				<div data-ajax-replace="/GCWeb/sites/feedback/ajax/report-problem-en.html" class="wb-init wb-data-ajax-replace-inited" id="wb-auto-4"><div class="row row-no-gutters">
@@ -207,17 +199,11 @@ async function handleRequest(event) {
 	</div>
 </div></div>
 
-			</div><div class="wb-share col-sm-4 col-md-3 wb-init wb-share-inited" data-wb-share="{&quot;lnkClass&quot;: &quot;btn btn-default btn-block&quot;}" id="wb-auto-5"><section id="shr-pg0" class="shr-pg mfp-hide modal-dialog modal-content overlay-def"><header class="modal-header"><h2 class="modal-title">Share this page</h2></header><div class="modal-body"><ul class="list-unstyled colcount-xs-2"><li><a href="https://www.blogger.com/blog_this.pyra?t=&amp;u=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html&amp;n=Search%20results%20-%20Canada.ca" class="shr-lnk blogger btn btn-default" rel="noreferrer noopener">Blogger</a></li><li><a href="https://www.diigo.com/post?url=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html&amp;title=Search%20results%20-%20Canada.ca" class="shr-lnk diigo btn btn-default" rel="noreferrer noopener">Diigo</a></li><li><a href="mailto:?to=&amp;subject=Search%20results%20-%20Canada.ca&amp;body=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html%0A" class="shr-lnk email btn btn-default" rel="noreferrer noopener">Email</a></li><li><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html&amp;t=Search%20results%20-%20Canada.ca" class="shr-lnk facebook btn btn-default" rel="noreferrer noopener">Facebook</a></li><li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=&amp;su=Search%20results%20-%20Canada.ca&amp;body=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html%0A" class="shr-lnk gmail btn btn-default" rel="noreferrer noopener">Gmail</a></li><li><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html&amp;title=Search%20results%20-%20Canada.ca&amp;ro=false&amp;summary=&amp;source=" class="shr-lnk linkedin btn btn-default" rel="noreferrer noopener">LinkedIn®</a></li><li><a href="https://www.myspace.com/Modules/PostTo/Pages/?u=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html&amp;t=Search%20results%20-%20Canada.ca" class="shr-lnk myspace btn btn-default" rel="noreferrer noopener">MySpace</a></li><li><a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html&amp;media=&amp;description=Search%20results%20-%20Canada.ca" class="shr-lnk pinterest btn btn-default" rel="noreferrer noopener">Pinterest</a></li><li><a href="https://reddit.com/submit?url=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html&amp;title=Search%20results%20-%20Canada.ca" class="shr-lnk reddit btn btn-default" rel="noreferrer noopener">reddit</a></li><li><a href="https://tinyurl.com/create.php?url=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html" class="shr-lnk tinyurl btn btn-default" rel="noreferrer noopener">TinyURL</a></li><li><a href="https://www.tumblr.com/share/link?url=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html&amp;name=Search%20results%20-%20Canada.ca&amp;description=" class="shr-lnk tumblr btn btn-default" rel="noreferrer noopener">tumblr</a></li><li><a href="https://twitter.com/intent/tweet?text=Search%20results%20-%20Canada.ca&amp;url=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html" class="shr-lnk twitter btn btn-default" rel="noreferrer noopener">Twitter</a></li><li><a href="https://api.whatsapp.com/send?text=Search%20results%20-%20Canada.ca%0A%0Ahttps%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html" class="shr-lnk whatsapp btn btn-default" rel="noreferrer noopener">Whatsapp</a></li><li><a href="https://compose.mail.yahoo.com/?to=&amp;subject=Search%20results%20-%20Canada.ca&amp;body=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html%0A" class="shr-lnk yahoomail btn btn-default" rel="noreferrer noopener">Yahoo! Mail</a></li></ul><p class="col-sm-12 shr-dscl">No endorsement of any products or services is expressed or implied.</p><div class="clearfix"></div></div></section><a href="https://wet-boew.github.io/GCWeb/templates/search/results-en.html#shr-pg0" aria-controls="shr-pg0" class="shr-opn wb-lbx btn btn-default btn-block wb-lbx-inited wb-init" id="wb-auto-6"><span class="glyphicon glyphicon-share"></span>Share this page</a></div><div class="col-xs-12">
-			<dl id="wb-dtmd">
-				<dt>Date modified:</dt>
-				<dd><time property="dateModified">2022-08-02</time></dd>
-			</dl>
+			</div><div class="wb-share col-sm-4 col-md-3 wb-init wb-share-inited" data-wb-share="{&quot;lnkClass&quot;: &quot;btn btn-default btn-block&quot;}" id="wb-auto-5"><section id="shr-pg0" class="shr-pg mfp-hide modal-dialog modal-content overlay-def"><header class="modal-header"><h2 class="modal-title">Share this page</h2></header><div class="modal-body"><ul class="list-unstyled colcount-xs-2"><li><a href="https://www.blogger.com/blog_this.pyra?t=&amp;u=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html&amp;n=Search%20results%20-%20Canada.ca" class="shr-lnk blogger btn btn-default" rel="noreferrer noopener">Blogger</a></li><li><a href="https://www.diigo.com/post?url=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html&amp;title=Search%20results%20-%20Canada.ca" class="shr-lnk diigo btn btn-default" rel="noreferrer noopener">Diigo</a></li><li><a href="mailto:?to=&amp;subject=Search%20results%20-%20Canada.ca&amp;body=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html%0A" class="shr-lnk email btn btn-default" rel="noreferrer noopener">Email</a></li><li><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html&amp;t=Search%20results%20-%20Canada.ca" class="shr-lnk facebook btn btn-default" rel="noreferrer noopener">Facebook</a></li><li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=&amp;su=Search%20results%20-%20Canada.ca&amp;body=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html%0A" class="shr-lnk gmail btn btn-default" rel="noreferrer noopener">Gmail</a></li><li><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html&amp;title=Search%20results%20-%20Canada.ca&amp;ro=false&amp;summary=&amp;source=" class="shr-lnk linkedin btn btn-default" rel="noreferrer noopener">LinkedIn®</a></li><li><a href="https://www.myspace.com/Modules/PostTo/Pages/?u=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html&amp;t=Search%20results%20-%20Canada.ca" class="shr-lnk myspace btn btn-default" rel="noreferrer noopener">MySpace</a></li><li><a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html&amp;media=&amp;description=Search%20results%20-%20Canada.ca" class="shr-lnk pinterest btn btn-default" rel="noreferrer noopener">Pinterest</a></li><li><a href="https://reddit.com/submit?url=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html&amp;title=Search%20results%20-%20Canada.ca" class="shr-lnk reddit btn btn-default" rel="noreferrer noopener">reddit</a></li><li><a href="https://tinyurl.com/create.php?url=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html" class="shr-lnk tinyurl btn btn-default" rel="noreferrer noopener">TinyURL</a></li><li><a href="https://www.tumblr.com/share/link?url=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html&amp;name=Search%20results%20-%20Canada.ca&amp;description=" class="shr-lnk tumblr btn btn-default" rel="noreferrer noopener">tumblr</a></li><li><a href="https://twitter.com/intent/tweet?text=Search%20results%20-%20Canada.ca&amp;url=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html" class="shr-lnk twitter btn btn-default" rel="noreferrer noopener">Twitter</a></li><li><a href="https://api.whatsapp.com/send?text=Search%20results%20-%20Canada.ca%0A%0Ahttps%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html" class="shr-lnk whatsapp btn btn-default" rel="noreferrer noopener">Whatsapp</a></li><li><a href="https://compose.mail.yahoo.com/?to=&amp;subject=Search%20results%20-%20Canada.ca&amp;body=https%3A%2F%2Fwet-boew.github.io%2FGCWeb%2Ftemplates%2Fsearch%2Fresults-en.html%0A" class="shr-lnk yahoomail btn btn-default" rel="noreferrer noopener">Yahoo! Mail</a></li></ul><p class="col-sm-12 shr-dscl">No endorsement of any products or services is expressed or implied.</p><div class="clearfix"></div></div></section><a href="#" aria-controls="shr-pg0" class="shr-opn wb-lbx btn btn-default btn-block wb-lbx-inited wb-init" id="wb-auto-6"><span class="glyphicon glyphicon-share"></span>Share this page</a></div><div class="col-xs-12">
 		</div>
 	</div>
 </section>
-
 </main>
-
 <footer id="wb-info">
 	<h2 class="wb-inv">About this site</h2>
 	<div class="gc-main-footer">
@@ -265,7 +251,6 @@ async function handleRequest(event) {
 		</div>
 	</div>
 </footer>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha384-rY/jv8mMhqDabXSo+UCggqKtdmBfd3qC2/KvyTDNQ6PcUJXaxK1tMepoQda4g5vB" crossorigin="anonymous"></script>
 <script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script>
 <script src="https://wet-boew.github.io/themes-dist/GCWeb/GCWeb/js/theme.min.js"></script>
