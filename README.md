@@ -5,7 +5,9 @@ Rename `wrangler.toml.example` to `wrangler.toml`, modify the values in `wrangle
 
 # Demo
 
-The demo may take 10-15 seconds while it fetches the API json data. https://geonode-api-test.sisyphus.ca/
+The demo may take 10-15 seconds while it fetches the API json data. 
+
+https://geonode-api-test.sisyphus.ca/
 
 ![preview](https://user-images.githubusercontent.com/6893641/236891822-0fe2f0d2-f535-47b3-b133-715ec8e28df5.jpg)
 
