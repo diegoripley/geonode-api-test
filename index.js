@@ -37,7 +37,7 @@ async function handleRequest(event) {
       const abstract = results[index]['abstract']
       results_text+= `
 	<section>
-		<h3><a href="https://geonode.sisyphus.ca/catalogue/#/dataset/${pk}">${title}</a></h3>
+		<h3><a href="https://stable.demo.geonode.org/catalogue/#/dataset/${pk}">${title}</a></h3>
 		<ul class="context-labels">
 			<li>${subtype}</li>
 		</ul>
