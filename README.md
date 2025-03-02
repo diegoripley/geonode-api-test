@@ -1,11 +1,11 @@
 # geonode-api-test
 This Cloudflare worker fetches datasets via the GeoNode dataset API and renders the results with the [GCWeb theme](https://wet-boew.github.io/GCWeb/index-en.html).
 
-Rename `wrangler.toml.example` to `wrangler.toml`, modify the values in `wrangler.toml`, and set the API url secret (`wrangler secret put URL https://yoururl/api/v2/datasets?page_size=200`)
+Rename `wrangler.toml.example` to `wrangler.toml`, modify the values in `wrangler.toml`.
 
 # Demo
 
-The demo may take 10-15 seconds while it fetches the API json data. 
+The demo may take 10-15 seconds while it fetches the API json data.
 
 https://geonode-api-test.sisyphus.ca/
 
